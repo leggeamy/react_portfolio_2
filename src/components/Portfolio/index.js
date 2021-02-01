@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <section>
       <img src={coverImage} style={{ width: "100%" }} alt="cover" />
-      <WorkList />
+      <WorkList></WorkList>
     </section>
   );
 }

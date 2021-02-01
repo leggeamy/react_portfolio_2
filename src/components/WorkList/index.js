@@ -1,57 +1,71 @@
 import React, { useState } from 'react';
 
-const WorkList = ({ category }) => {
-
-  const [work] = useState([
-    {
-      name: 'Cake Lab',
-      category: 'Portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Daily Dashboard',
-      category: 'Portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Budget Tracker',
-      category: 'Portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Password Generator',
-      category: 'Portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Horiseon',
-      category: 'Portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Run Buddy',
-      category: 'Portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-]);     
-
-    
-  const currentWork = work.filter((work) => work.category === category);
-
+function WorkList() {
   return (
     <div>
       <div className="flex-row">
-        {currentWork.map((image, i) => (
+          <div className="container">
           <img
-            src={require(`../../assets/${category}/${i}.jpg`).default}
-            alt={image.name}
-            className="img-thumbnail mx-1"
-            key={image.name}
+            src={require('../../assets/Portfolio/1.png').default}
+            className="img-thumbnail"
           />
-        ))}
+          <div class="middle">
+              <div class="text">Cake Lab</div>
+          </div>
+          </div>
+
+        <div className="container">
+          <img
+            src={require('../../assets/Portfolio/2.png').default}
+            className="img-thumbnail"
+          />
+          <div class="middle">
+              <div class="text">Daily Dashboard</div>
+          </div>
+          </div>
+
+          <div className="container">
+          <img
+            src={require('../../assets/Portfolio/3.png').default}
+            className="img-thumbnail"
+          />
+          <div class="middle">
+              <div class="text">Budget Tracker</div>
+          </div>
+          </div>
+
+          <div className="container">
+          <img
+            src={require('../../assets/Portfolio/4.png').default}
+            className="img-thumbnail"
+          />
+          <div class="middle">
+              <div class="text">Password Generator</div>
+          </div>
+          </div>
+
+          <div className="container">
+          <img
+            src={require('../../assets/Portfolio/5.png').default}
+            className="img-thumbnail"
+          />
+          <div class="middle">
+              <div class="text">Horiseon</div>
+          </div>
+          </div>
+
+          <div className="container">
+        <img
+            src={require('../../assets/Portfolio/6.png').default}
+            className="img-thumbnail"
+          />
+          <div class="middle">
+              <div class="text">Run Buddy</div>
+          </div>
+          </div>
       </div>
     </div>
   );
- }
+  }
 
 export default WorkList;
