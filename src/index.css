@@ -7,7 +7,7 @@
 main {
   margin: 0 auto;
   max-width: 100%;
-  padding: 50px;
+  padding: 125px;
 }
 
 html,
@@ -67,7 +67,7 @@ a {
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -75,7 +75,7 @@ h2 {
 }
 
 h3 {
-  text-align: center;
+  text-align: left;
 }
 
 h4 {

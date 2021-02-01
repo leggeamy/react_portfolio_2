@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
     render() {    
       return (
         <header>
-          <h2>
+          <h1>
             <a href="/">Amy Legge</a>
-          </h2>
+          </h1>
         <nav className="Nav">
           <div className="Nav_container">
             <Link  to="/"> </Link>

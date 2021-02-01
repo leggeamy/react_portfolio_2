@@ -8,7 +8,7 @@ function Resume() {
       <img src={coverImage} style={{ width: "100%" }} alt="cover" />
       <div>
         <h2>AMY LEGGE</h2>
-        <h3>LONDON, ONTARIO N6J 1K4</h3>
+        <h4>LONDON, ONTARIO N6J 1K4</h4>
         <h4>Phone: 519-709-3989</h4>
         <h3>SUMMARY</h3>
         <ul>
@@ -39,6 +39,16 @@ function Resume() {
         <ul>
           <li>
           <a href="../Portfolio/index.js">View My Portfolio</a>
+          </li>
+        </ul>
+
+        <h3>EDUCATION</h3>
+        <ul>
+          <li>
+            Bootcamp Certificate: University of Toronto, School of Continuing Studies Coding Bootcamp, 24 weeks
+          </li>
+          <li>
+            Bachelor's Degree: Western University, London Ontario
           </li>
         </ul>
         
