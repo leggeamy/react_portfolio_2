@@ -12,7 +12,8 @@ function WorkList() {
           />
           <div class="middle">
           <div class="text">
-                  <a href="https://cake-lab-app.herokuapp.com/">Cake Lab</a>
+                  <a href="https://cake-lab-app.herokuapp.com/" target="_blank">Cake Lab</a>
+                  <a href="https://github.com/lylylong/cake-app" target="_blank">GitHub Repo</a>
               </div>
           </div>
           </div>
@@ -25,7 +26,8 @@ function WorkList() {
           />
           <div class="middle">
           <div class="text">
-                  <a href="https://leggeamy.github.io/Daily-Dashboard/">Daily Dashboard</a>
+                  <a href="https://leggeamy.github.io/Daily-Dashboard/" target="_blank">Daily Dashboard</a>
+                  <a href="https://github.com/leggeamy/Daily-Dashboard" target="_blank">GitHub Repo</a>
               </div>
           </div>
           </div>
@@ -38,7 +40,8 @@ function WorkList() {
           />
           <div class="middle">
           <div class="text">
-                  <a href="https://boiling-harbor-83587.herokuapp.com/">Budget Tracker</a>
+                  <a href="https://boiling-harbor-83587.herokuapp.com/" target="_blank">Budget Tracker</a>
+                  <a href="https://github.com/leggeamy/Budget-Tracker" target="_blank">GitHub Repo</a>
               </div>
           </div>
           </div>
@@ -51,7 +54,8 @@ function WorkList() {
           />
           <div class="middle">
           <div class="text">
-                  <a href="https://leggeamy.github.io/password-generator/">Password Generator</a>
+                  <a href="https://leggeamy.github.io/password-generator/" target="_blank">Password Generator</a>
+                  <a href="https://github.com/leggeamy/password-generator" target="_blank">GitHub Repo</a>
               </div>
           </div>
           </div>
@@ -64,7 +68,8 @@ function WorkList() {
           />
           <div class="middle">
               <div class="text">
-                  <a href="https://leggeamy.github.io/horiseon/">Horiseon</a>
+                  <a href="https://leggeamy.github.io/horiseon/" target="_blank">Horiseon</a>
+                  <a href="https://github.com/leggeamy/horiseon" target="_blank">GitHub Repo</a>
               </div>
           </div>
           </div>
@@ -77,7 +82,8 @@ function WorkList() {
           />
           <div class="middle">
           <div class="text">
-                  <a href="https://leggeamy.github.io/run-buddy/">Run Buddy</a>
+                  <a href="https://leggeamy.github.io/run-buddy/" target="_blank">Run Buddy</a>
+                  <a href="https://github.com/leggeamy/run-buddy" target="_blank">GitHub Repo</a>
               </div>
           </div>
           </div>

@@ -84,12 +84,14 @@ h4 {
 
 .container {
   position: relative;
-  width: 50%;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
 .img-thumbnail {
   opacity: 1;
-  display: inline-block;
+  display: inline;
   width: 45%;
   height: auto;
   transition: .5s ease;
